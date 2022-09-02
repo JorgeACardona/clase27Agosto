@@ -6,7 +6,7 @@ public interface Pago {
     
     default String aumentarSalario(int porcentaje){
         
-        return "";
+        return "Hola, ¿Quieres que por te aumenten el salario?";
     }
     
     static double verificarLimiteAumentoSalario(){
